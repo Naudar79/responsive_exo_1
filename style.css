@@ -1,0 +1,20 @@
+@media only screen and (max-width: 300px) {
+    body {
+        /* Ecran rouge si la définition est <300 px*/
+        background-color: red;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        /* Ecran rouge si la définition est <768 px*/
+        background-color: green;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    body {
+        /* Ecran rouge si la définition est >768 px*/
+        background-color: blue;
+    }
+}
