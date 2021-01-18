@@ -3,6 +3,10 @@
         /* Ecran rouge si la définition est <300 px*/
         background-color: red;
     }
+    div#medium,
+    div#large {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -10,11 +14,19 @@
         /* Ecran rouge si la définition est <768 px*/
         background-color: green;
     }
+    div#small,
+    div#large {
+        display: none;
+    }
 }
 
 @media only screen and (min-width: 768px) {
     body {
         /* Ecran rouge si la définition est >768 px*/
         background-color: blue;
+    }
+    div#small,
+    div#medium {
+        display: none;
     }
 }
